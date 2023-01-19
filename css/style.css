@@ -648,4 +648,16 @@ h3.my-profession{
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .about .about-content .about-text img {
+        width: 350;
+        margin-left: 160px;
+        margin-bottom: 10px;
+    }
+    .contact .contact-info-item p {
+        font-size: 12px;
+        line-height: 25px;
+        color: var(--text-black700);
+        font-weight: 400;
+    }
+    
 }
