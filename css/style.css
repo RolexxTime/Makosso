@@ -272,6 +272,10 @@ section{
     max-width: 60%;
 }
 
+.log{
+    display: none;
+}
+
 h3.hello{
     font-size: 20px;
     margin: 15px 0;
@@ -640,6 +644,12 @@ h3.my-profession{
 }
 
 @media (max-width:767px){
+
+    .log{
+        display: block;
+        width: 100px;
+        margin-bottom: 50px;
+    }
     .contact .contact-form .col-6
     .contact .contact-info-item,
     .galerie .galerie-item,
