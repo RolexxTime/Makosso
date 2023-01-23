@@ -612,6 +612,19 @@ h3.my-profession{
     padding:  0 50px;
 }
 
+/* SOCIAL MEDIA */
+
+.media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.media i{
+    font-size: 40px;
+    color: var(--skin-color);
+}
+
 /* RESPONSIVE */
 
 @media (max-width:1199px){
@@ -650,7 +663,7 @@ h3.my-profession{
         width: 100px;
         margin-bottom: 50px;
     }
-    .contact .contact-form .col-6
+    .contact .contact-form .col-6,
     .contact .contact-info-item,
     .galerie .galerie-item,
     .service .service-item,
@@ -658,7 +671,7 @@ h3.my-profession{
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .about .about-content .about-text img {
+    .about .about-content .about-text img{
         width: 260px;
         margin-left: 40px;
         margin-bottom: 10px;
@@ -669,7 +682,7 @@ h3.my-profession{
         color: var(--text-black700);
         font-weight: 400;
     }
-    .about .about-content .personnal-info .info-item p span {
+    .about .about-content .personnal-info .info-item p span{
         display: block;
         margin-left: 0;
         font-size: 12px;
