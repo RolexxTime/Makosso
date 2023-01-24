@@ -461,11 +461,23 @@ h3.my-profession{
     transition: all 0.3s ease;
 }
 
+.service .service-item .service-item-inner .icon .fas{
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--skin-color);
+    transition: all 0.3s ease;
+}
+
 .service .service-item .service-item-inner:hover .icon{
     background: var(--skin-color);
 }
 
 .service .service-item .service-item-inner:hover .icon .fa{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.service .service-item .service-item-inner:hover .icon .fas{
     font-size: 25px;
     color: #ffffff;
 }
@@ -549,6 +561,11 @@ h3.my-profession{
 }
 
 .contact .contact-info-item .icon .fa{
+    font-size: 25px;
+    color: var(--skin-color);
+}
+
+.contact .contact-info-item .icon .fas{
     font-size: 25px;
     color: var(--skin-color);
 }
