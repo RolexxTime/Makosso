@@ -731,5 +731,8 @@ h3.my-profession{
         margin-left: 0;
         font-size: 12px;
     }
+    .media a{
+        font-size: 15px;
+    }
     
 }
