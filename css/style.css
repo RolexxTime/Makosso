@@ -38,6 +38,17 @@ ul{
     list-style: none;
 }
 
+.reveal{
+    opacity: 0;
+    transform: translateX(-30px);
+}
+
+.reveal-visible{
+    opacity: 1;
+    transform: translateX(0);
+    transition: 3s cubic-bezier(.5, 0, 0, 1);
+}
+
 /* ASIDE */
 
 section{
@@ -561,12 +572,12 @@ h3.my-profession{
 }
 
 .contact .contact-info-item .icon .fa{
-    font-size: 25px;
+    font-size: 35px;
     color: var(--skin-color);
 }
 
 .contact .contact-info-item .icon .fas{
-    font-size: 25px;
+    font-size: 35px;
     color: var(--skin-color);
 }
 
@@ -639,6 +650,11 @@ h3.my-profession{
 
 .media i{
     font-size: 40px;
+    color: var(--skin-color);
+}
+
+.media a{
+    font-size: 25px;
     color: var(--skin-color);
 }
 
