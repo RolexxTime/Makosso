@@ -52,7 +52,7 @@ ul{
 /* PRELOADER */
 
 #preloader{
-    background: #fff url(../images/loading.gif) no-repeat center center;
+    background: #fff url(../images/logo.png) no-repeat center center;
     background-size: 10%;
     height: 100vh;
     width: 100%;
@@ -653,20 +653,108 @@ h3.my-profession{
 
 /* SOCIAL MEDIA */
 
-.media{
+.slide-container{
+    width: 100%;
+    max-width: 1100px;
+    padding: 40px 0;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--skin-color);
+    border-radius: 25px 25px 0 25px;
+}
+
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: var(--skin-color);
+    right: 0;
+    bottom: -40px;
+}
+
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: #FFF;
+}
+
+.slide-content{
+    margin: 0 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.media i{
-    font-size: 40px;
-    color: var(--skin-color);
+.card{
+    border-radius: 25px;
+    background-color: #fff;
+    width: 320px;
 }
 
-.media a{
-    font-size: 25px;
-    color: var(--skin-color);
+.image-content,
+.card-content{
+    padding: 10px 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-content{
+    row-gap: 5px;
+    position: relative;
+    padding: 25px 0;
+}
+
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 3px;
+}
+
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid var(--skin-color);
+}
+
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+
+.descriptions{
+    font-size: 14px;
+    text-align: center;
+    color: #707070;
+}
+
+.buutton{
+    border: none;
+    font-size: 14px;
+    color: #FFF;
+    background-color: var(--skin-color);
+    padding: 8px 16px;
+    cursor: pointer;
+    margin: 14px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.buutton:hover{
+    transform: translateY(10%);
 }
 
 /* RESPONSIVE */
@@ -697,6 +785,27 @@ h3.my-profession{
     .service .service-item{
         flex: 0 0 50%;
         max-width: 50%;
+    }
+    .card-image{
+        height: 100px;
+        width: 100px;
+    }
+    .card{
+        border-radius: 25px;
+        background-color: #fff;
+        width: 290px;
+    }
+    .buutton{
+        font-size: 12px;
+        padding: 6px 14px;
+        margin: 12px;
+    }
+    .name{
+        font-size: 15px;
+    }
+    
+    .descriptions{
+        font-size: 12px;
     }
 }
 
@@ -734,5 +843,36 @@ h3.my-profession{
     .media a{
         font-size: 15px;
     }
+    .slide-content{
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .card-image{
+        height: 100px;
+        width: 100px;
+    }
+    .card{
+        border-radius: 25px;
+        background-color: #fff;
+        width: 290px;
+    }
+    .buutton{
+        font-size: 12px;
+        padding: 6px 14px;
+        margin: 12px;
+    }
+    .name{
+        font-size: 15px;
+    }
     
+    .descriptions{
+        font-size: 12px;
+    }
+    .image-content {
+        margin-top: 50px;
+    }
+    .slide-container{
+        margin: 0 160px;
+    }
 }
