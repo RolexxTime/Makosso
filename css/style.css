@@ -52,8 +52,8 @@ ul{
 /* PRELOADER */
 
 #preloader{
-    background: #fff url(../images/logo.png) no-repeat center center;
-    background-size: 10%;
+    background: #fff url(../images/logo_prev_ui\ \(1\).png) no-repeat center center;
+    background-size: 20%;
     height: 100vh;
     width: 100%;
     position: fixed;
@@ -397,7 +397,7 @@ h3.my-profession{
 .about .about-content .about-text img{
     width: 400px;
     margin-left: 300px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .about .about-content .personnal-info{
@@ -721,6 +721,11 @@ h3.my-profession{
     padding: 3px;
 }
 
+.card-content i{
+    color: #216FDB;
+    font-size: 12px;
+}
+
 .card-image .card-img{
     height: 100%;
     width: 100%;
@@ -730,7 +735,7 @@ h3.my-profession{
 }
 
 .name{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: #333;
 }
