@@ -52,7 +52,7 @@ ul{
 /* PRELOADER */
 
 #preloader{
-    background: #fff url(../images/logo_prev_ui\ \(1\).png) no-repeat center center;
+    background: #fff url(../images/Capture\ d’écran\ \(7\)_prev_ui.png) no-repeat center center;
     background-size: 20%;
     height: 100vh;
     width: 100%;
@@ -154,7 +154,7 @@ section{
 }
 
 .aside{
-    width: 270px;
+    width: 300px;
     background: var(--bg-black100);
     position: fixed;
     left: 0;
@@ -170,7 +170,7 @@ section{
 
 .aside .logo{
     position: absolute;
-    top: 50px;
+    top: 30px;
     font-size: 30px;
     text-transform: capitalize;
 }
@@ -179,14 +179,14 @@ section{
     color: var(--text-black900);
     font-weight: 700;
     padding: 15px 20px;
-    font-size: 30px;
+    font-size: 17px;
     position: relative;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 
 .aside .logo a span{
     font-family: 'Clicker Script', cursive;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .aside .logo a::before{
@@ -197,7 +197,7 @@ section{
     border-bottom: 5px solid var(--skin-color);
     border-left: 5px solid var(--skin-color);
     bottom: 0;
-    left: 0;
+    left: -20px;
 }
 
 .aside .logo a::after{
@@ -207,8 +207,8 @@ section{
     height: 20px;
     border-top: 5px solid var(--skin-color);
     border-right: 5px solid var(--skin-color);
-    top: 0;
-    right: 0;
+    top: -5px;
+    right: -10px;
 }
 
 .aside .nav-toggler{
