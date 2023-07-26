@@ -52,7 +52,7 @@ ul{
 /* PRELOADER */
 
 #preloader{
-    background: #fff url(../images/Capture\ d’écran\ \(7\)_prev_ui.png) no-repeat center center;
+    background: #fff url(../images/gmc4.png) no-repeat center center;
     background-size: 20%;
     height: 100vh;
     width: 100%;
@@ -774,11 +774,13 @@ footer p{
     padding-bottom: 20px;
 }
 
+
+
 /* RESPONSIVE */
 
 @media (max-width:1199px){
     .aside{
-        left: -270px;
+        left: -300px;
     }
     .main-content{
         padding-left: 0;
@@ -830,9 +832,31 @@ footer p{
 
     .log{
         display: block;
-        width: 100px;
-        margin-bottom: 50px;
+        width: 150px;
+        margin-bottom: 80px;
     }
+
+    #preloader{
+        background: #fff url(../images/gmc4.png) no-repeat center center;
+        background-size: 35%;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    }
+
+    .section-title h2{
+        font-size: 30px;
+    }
+
+    .about .about-content .about-text h3{
+        font-size: 20px;
+    }
+
+    .about .about-content .about-text p{
+        font-size: 14px;
+    }
+
     .contact .contact-form .col-6,
     .contact .contact-info-item,
     .galerie .galerie-item,
